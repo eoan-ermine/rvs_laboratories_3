@@ -1089,7 +1089,7 @@ void wbSolution(const wbArg_t& args, const wbImage_t& image)
     }
     else // Check solution
     {
-        wbInternal::wbImage_save(image, args, "transformed_image.ppm");
+        wbInternal::wbImage_save(image, args, "output_image.ppm");
 
         const float tolerance = 1.5f;
         int errCnt = 0;
