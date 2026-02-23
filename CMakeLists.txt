@@ -1,0 +1,6 @@
+project(rvs_laboratories_3)
+
+find_package(CUDA REQUIRED)
+
+add_executable(dataset_generator dataset_generator/dataset_generator.cpp)
+cuda_add_executable(rvs_laboratories_3 rvs_laboratories_3/rvs_laboratories_3.cu)
