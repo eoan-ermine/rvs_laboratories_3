@@ -1,0 +1,1 @@
+Недоделанный исходный код работы доступен на [Compiler Explorer](https://godbolt.org/z/bE6qz1sWv)
